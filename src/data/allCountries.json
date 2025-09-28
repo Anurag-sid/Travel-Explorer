@@ -1,0 +1,44 @@
+{
+  "countries": [
+    {
+      "id": "afghanistan",
+      "name": "Afghanistan",
+      "continent": "Asia",
+      "capital": "Kabul",
+      "flagUrl": "https://flagcdn.com/w320/af.png",
+      "monumentImage": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800"
+    },
+    {
+      "id": "albania",
+      "name": "Albania", 
+      "continent": "Europe",
+      "capital": "Tirana",
+      "flagUrl": "https://flagcdn.com/w320/al.png",
+      "monumentImage": "https://images.unsplash.com/photo-1551524164-6cf2ac531fb4?w=800"
+    },
+    {
+      "id": "algeria",
+      "name": "Algeria",
+      "continent": "Africa", 
+      "capital": "Algiers",
+      "flagUrl": "https://flagcdn.com/w320/dz.png",
+      "monumentImage": "https://images.unsplash.com/photo-1539650116574-75c0c6d0e9c3?w=800"
+    },
+    {
+      "id": "andorra",
+      "name": "Andorra",
+      "continent": "Europe",
+      "capital": "Andorra la Vella", 
+      "flagUrl": "https://flagcdn.com/w320/ad.png",
+      "monumentImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800"
+    },
+    {
+      "id": "angola",
+      "name": "Angola",
+      "continent": "Africa",
+      "capital": "Luanda",
+      "flagUrl": "https://flagcdn.com/w320/ao.png", 
+      "monumentImage": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800"
+    }
+  ]
+}

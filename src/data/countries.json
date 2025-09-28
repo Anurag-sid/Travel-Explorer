@@ -1,0 +1,1324 @@
+{
+  "countries": [
+    {
+      "id": "france",
+      "name": "France",
+      "continent": "Europe",
+      "flagUrl": "https://images.unsplash.com/photo-1549144511-f099e773c147?w=400",
+      "monumentImage": "https://images.unsplash.com/photo-1549144511-f099e773c147?w=800",
+      "shortDescription": "The land of romance, art, and culinary excellence with iconic landmarks and rich cultural heritage.",
+      "details": {
+        "capital": "Paris",
+        "currency": "Euro (EUR)",
+        "keyDestinations": [
+          "Paris - City of Light and Romance",
+          "Nice - French Riviera Paradise",
+          "Lyon - Gastronomic Capital",
+          "Bordeaux - World-Famous Wine Region",
+          "Marseille - Historic Mediterranean Port"
+        ],
+        "popularMovies": [
+          "Amélie (2001) - Whimsical romantic comedy",
+          "The Artist (2011) - Silent film masterpiece",
+          "Breathless (1960) - French New Wave classic",
+          "Jules and Jim (1962) - Truffaut's romantic drama",
+          "The 400 Blows (1959) - Coming-of-age story"
+        ],
+        "famousPersons": [
+          "Napoleon Bonaparte - Emperor and Military Genius",
+          "Marie Curie - Nobel Prize-winning Scientist",
+          "Claude Monet - Impressionist Master",
+          "Coco Chanel - Revolutionary Fashion Designer",
+          "Victor Hugo - Literary Giant"
+        ]
+      }
+    },
+    {
+      "id": "italy",
+      "name": "Italy",
+      "continent": "Europe",
+      "flagUrl": "https://images.unsplash.com/photo-1515542622106-78bda8ba0e5b?w=400",
+      "monumentImage": "https://images.unsplash.com/photo-1515542622106-78bda8ba0e5b?w=800",
+      "shortDescription": "Home to ancient Rome, Renaissance art, and world-renowned cuisine in a boot-shaped peninsula.",
+      "details": {
+        "capital": "Rome",
+        "currency": "Euro (EUR)",
+        "keyDestinations": [
+          "Rome - The Eternal City",
+          "Venice - City of Canals",
+          "Florence - Renaissance Capital",
+          "Milan - Fashion and Design Hub",
+          "Tuscany - Rolling Hills and Vineyards"
+        ],
+        "popularMovies": [
+          "La Dolce Vita (1960) - Fellini's masterpiece",
+          "Cinema Paradiso (1988) - Nostalgic drama",
+          "Life is Beautiful (1997) - Heartwarming war story",
+          "The Godfather (1972) - Epic crime saga",
+          "Roman Holiday (1953) - Classic romance"
+        ],
+        "famousPersons": [
+          "Leonardo da Vinci - Renaissance Genius",
+          "Michelangelo - Sculptor and Artist",
+          "Dante Alighieri - Divine Comedy Author",
+          "Giuseppe Verdi - Opera Composer",
+          "Federico Fellini - Acclaimed Film Director"
+        ]
+      }
+    },
+    {
+      "id": "spain",
+      "name": "Spain",
+      "continent": "Europe",
+      "flagUrl": "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?w=400",
+      "monumentImage": "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?w=800",
+      "shortDescription": "Vibrant culture, stunning architecture, passionate flamenco, and sun-soaked Mediterranean beaches.",
+      "details": {
+        "capital": "Madrid",
+        "currency": "Euro (EUR)",
+        "keyDestinations": [
+          "Barcelona - Gaudí's Architectural Wonderland",
+          "Madrid - Royal Capital and Art Museums",
+          "Seville - Flamenco and Moorish Architecture",
+          "Granada - Alhambra Palace",
+          "Valencia - City of Arts and Sciences"
+        ],
+        "popularMovies": [
+          "Pan's Labyrinth (2006) - Dark fantasy masterpiece",
+          "The Spirit of the Beehive (1973) - Poetic drama",
+          "All About My Mother (1999) - Almodóvar's acclaimed work",
+          "Vicky Cristina Barcelona (2008) - Romantic drama",
+          "The Sea Inside (2004) - Emotional biographical drama"
+        ],
+        "famousPersons": [
+          "Pablo Picasso - Cubist Revolutionary",
+          "Salvador Dalí - Surrealist Master",
+          "Miguel de Cervantes - Don Quixote Author",
+          "Antoni Gaudí - Visionary Architect",
+          "Pedro Almodóvar - Acclaimed Film Director"
+        ]
+      }
+    },
+    {
+      "id": "germany",
+      "name": "Germany",
+      "continent": "Europe",
+      "flagUrl": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=400",
+      "monumentImage": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=800",
+      "shortDescription": "Rich history, fairy-tale castles, technological innovation, and the heart of European culture.",
+      "details": {
+        "capital": "Berlin",
+        "currency": "Euro (EUR)",
+        "keyDestinations": [
+          "Berlin - Historic Capital and Cultural Hub",
+          "Munich - Bavarian Charm and Oktoberfest",
+          "Hamburg - Maritime Gateway",
+          "Cologne - Gothic Cathedral City",
+          "Neuschwanstein - Fairy-tale Castle"
+        ],
+        "popularMovies": [
+          "The Lives of Others (2006) - Stasi surveillance drama",
+          "Run Lola Run (1998) - Innovative thriller",
+          "Wings of Desire (1987) - Poetic fantasy",
+          "Goodbye Lenin! (2003) - Tragicomedy about reunification",
+          "Metropolis (1927) - Silent film masterpiece"
+        ],
+        "famousPersons": [
+          "Albert Einstein - Theoretical Physicist",
+          "Ludwig van Beethoven - Classical Composer",
+          "Johann Wolfgang von Goethe - Literary Giant",
+          "Karl Marx - Philosopher and Economist",
+          "Werner Herzog - Acclaimed Film Director"
+        ]
+      }
+    },
+    {
+      "id": "united-kingdom",
+      "name": "United Kingdom",
+      "continent": "Europe",
+      "flagUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=400",
+      "monumentImage": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=800",
+      "shortDescription": "Royal heritage, literary legends, iconic landmarks, and the birthplace of modern democracy.",
+      "details": {
+        "capital": "London",
+        "currency": "British Pound (GBP)",
+        "keyDestinations": [
+          "London - Royal Capital and Global City",
+          "Edinburgh - Scottish Highland Gateway",
+          "Bath - Georgian Architecture and Roman Baths",
+          "Stonehenge - Mysterious Ancient Monument",
+          "Lake District - Poetic Natural Beauty"
+        ],
+        "popularMovies": [
+          "Four Weddings and a Funeral (1994) - Romantic comedy",
+          "The Full Monty (1997) - Working-class comedy",
+          "Love Actually (2003) - Ensemble romantic comedy",
+          "Trainspotting (1996) - Gritty Scottish drama",
+          "The King's Speech (2010) - Historical biographical drama"
+        ],
+        "famousPersons": [
+          "William Shakespeare - Greatest Playwright",
+          "Winston Churchill - Wartime Prime Minister",
+          "Charles Darwin - Evolution Theorist",
+          "The Beatles - Revolutionary Music Group",
+          "Stephen Hawking - Theoretical Physicist"
+        ]
+      }
+    },
+    {
+      "id": "greece",
+      "name": "Greece",
+      "continent": "Europe",
+      "flagUrl": "https://images.unsplash.com/photo-1555993539-1732b0258235?w=400",
+      "monumentImage": "https://images.unsplash.com/photo-1555993539-1732b0258235?w=800",
+      "shortDescription": "Cradle of democracy, ancient mythology, stunning islands, and Mediterranean paradise.",
+      "details": {
+        "capital": "Athens",
+        "currency": "Euro (EUR)",
+        "keyDestinations": [
+          "Athens - Ancient Capital and Acropolis",
+          "Santorini - Volcanic Island Paradise",
+          "Mykonos - Cosmopolitan Island Life",
+          "Delphi - Ancient Oracle Site",
+          "Crete - Largest Greek Island"
+        ],
+        "popularMovies": [
+          "Zorba the Greek (1964) - Cultural classic",
+          "My Life in Ruins (2009) - Romantic comedy",
+          "Mamma Mia! (2008) - Musical set in Greek islands",
+          "The Sisterhood of the Traveling Pants (2005) - Coming-of-age",
+          "Captain Corelli's Mandolin (2001) - War romance"
+        ],
+        "famousPersons": [
+          "Socrates - Ancient Philosopher",
+          "Plato - Philosophical Founder",
+          "Aristotle - Logic and Science Pioneer",
+          "Alexander the Great - Ancient Conqueror",
+          "Homer - Epic Poet of Iliad and Odyssey"
+        ]
+      }
+    },
+    {
+      "id": "usa",
+      "name": "United States",
+      "continent": "North America",
+      "flagUrl": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=400",
+      "monumentImage": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+      "shortDescription": "Land of opportunity, diverse landscapes, cultural melting pot, and global entertainment capital.",
+      "details": {
+        "capital": "Washington, D.C.",
+        "currency": "US Dollar (USD)",
+        "keyDestinations": [
+          "New York City - The Big Apple",
+          "Los Angeles - Entertainment Capital",
+          "San Francisco - Tech Hub and Golden Gate",
+          "Las Vegas - Entertainment and Gambling Mecca",
+          "Grand Canyon - Natural Wonder"
+        ],
+        "popularMovies": [
+          "Casablanca (1942) - Classic romance",
+          "The Godfather (1972) - Crime epic",
+          "Citizen Kane (1941) - Cinematic masterpiece",
+          "Pulp Fiction (1994) - Tarantino's breakthrough",
+          "Forrest Gump (1994) - Heartwarming drama"
+        ],
+        "famousPersons": [
+          "George Washington - First President",
+          "Abraham Lincoln - Civil War President",
+          "Martin Luther King Jr. - Civil Rights Leader",
+          "Walt Disney - Animation Pioneer",
+          "Steve Jobs - Technology Visionary"
+        ]
+      }
+    },
+    {
+      "id": "india",
+      "name": "India",
+      "continent": "Asia",
+      "flagUrl": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=400",
+      "monumentImage": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800",
+      "shortDescription": "Ancient civilization, spiritual diversity, colorful festivals, and incredible architectural wonders.",
+      "details": {
+        "capital": "New Delhi",
+        "currency": "Indian Rupee (INR)",
+        "keyDestinations": [
+          "Taj Mahal - Symbol of Eternal Love",
+          "Rajasthan - Land of Kings and Palaces",
+          "Kerala - God's Own Country",
+          "Goa - Tropical Beach Paradise",
+          "Himalayas - Spiritual Mountain Range"
+        ],
+        "popularMovies": [
+          "Lagaan (2001) - Epic sports drama",
+          "3 Idiots (2009) - Comedy-drama about education",
+          "Dangal (2016) - Wrestling biographical drama",
+          "Slumdog Millionaire (2008) - International success",
+          "Mughal-E-Azam (1960) - Historical epic"
+        ],
+        "famousPersons": [
+          "Mahatma Gandhi - Independence Leader",
+          "Rabindranath Tagore - Nobel Prize Poet",
+          "A.P.J. Abdul Kalam - Scientist President",
+          "Mother Teresa - Humanitarian Saint",
+          "Satyajit Ray - Acclaimed Film Director"
+        ]
+      }
+    },
+    {
+      "id": "russia",
+      "name": "Russia",
+      "continent": "Europe/Asia",
+      "flagUrl": "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=400",
+      "monumentImage": "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=800",
+      "shortDescription": "Vast landscapes, rich literature, imperial palaces, and the world's largest country by land area.",
+      "details": {
+        "capital": "Moscow",
+        "currency": "Russian Ruble (RUB)",
+        "keyDestinations": [
+          "Moscow - Red Square and Kremlin",
+          "St. Petersburg - Imperial Capital",
+          "Trans-Siberian Railway - Epic Journey",
+          "Lake Baikal - World's Deepest Lake",
+          "Golden Ring - Historic Towns"
+        ],
+        "popularMovies": [
+          "Battleship Potemkin (1925) - Revolutionary cinema",
+          "Andrei Rublev (1966) - Tarkovsky's masterpiece",
+          "The Cranes Are Flying (1957) - War drama",
+          "Solaris (1972) - Philosophical sci-fi",
+          "Brother (1997) - Post-Soviet crime drama"
+        ],
+        "famousPersons": [
+          "Leo Tolstoy - War and Peace Author",
+          "Fyodor Dostoevsky - Crime and Punishment Writer",
+          "Peter Tchaikovsky - Classical Composer",
+          "Yuri Gagarin - First Human in Space",
+          "Andrei Tarkovsky - Visionary Film Director"
+        ]
+      }
+    },
+    {
+      "id": "brazil",
+      "name": "Brazil",
+      "continent": "South America",
+      "flagUrl": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=400",
+      "monumentImage": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=800",
+      "shortDescription": "Carnival celebrations, Amazon rainforest, beautiful beaches, and passionate football culture.",
+      "details": {
+        "capital": "Brasília",
+        "currency": "Brazilian Real (BRL)",
+        "keyDestinations": [
+          "Rio de Janeiro - Marvelous City",
+          "São Paulo - Megacity and Cultural Hub",
+          "Amazon Rainforest - Lungs of the Earth",
+          "Iguazu Falls - Natural Wonder",
+          "Salvador - Afro-Brazilian Culture"
+        ],
+        "popularMovies": [
+          "City of God (2002) - Powerful social drama",
+          "Central Station (1998) - Emotional journey",
+          "Elite Squad (2007) - Crime action thriller",
+          "Black Orpheus (1959) - Carnival romance",
+          "The Two Popes (2019) - Biographical drama"
+        ],
+        "famousPersons": [
+          "Pelé - Football Legend",
+          "Oscar Niemeyer - Modernist Architect",
+          "Paulo Coelho - The Alchemist Author",
+          "Ayrton Senna - Formula 1 Champion",
+          "Carmen Miranda - International Entertainer"
+        ]
+      }
+    },
+    {
+      "id": "japan",
+      "name": "Japan",
+      "continent": "Asia",
+      "flagUrl": "https://images.unsplash.com/photo-1480796927426-f609979314bd?w=400",
+      "monumentImage": "https://images.unsplash.com/photo-1480796927426-f609979314bd?w=800",
+      "shortDescription": "Land of the rising sun, ancient traditions, cutting-edge technology, and breathtaking natural beauty.",
+      "details": {
+        "capital": "Tokyo",
+        "currency": "Japanese Yen (JPY)",
+        "keyDestinations": [
+          "Tokyo - Modern Metropolis",
+          "Kyoto - Ancient Temples",
+          "Mount Fuji - Sacred Mountain",
+          "Osaka - Food Capital",
+          "Hiroshima - Peace Memorial"
+        ],
+        "popularMovies": [
+          "Lost in Translation (2003)",
+          "Kill Bill (2003)",
+          "The Last Samurai (2003)",
+          "Spirited Away (2001)",
+          "Your Name (2016)"
+        ],
+        "famousPersons": [
+          "Akira Kurosawa - Film Director",
+          "Hayao Miyazaki - Animator",
+          "Haruki Murakami - Author",
+          "Yoko Ono - Artist",
+          "Ichiro Suzuki - Baseball Player"
+        ]
+      }
+    },
+    {
+      "id": "australia",
+      "name": "Australia",
+      "continent": "Oceania",
+      "flagUrl": "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?w=400",
+      "monumentImage": "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?w=800",
+      "shortDescription": "Diverse landscapes, unique wildlife, vibrant cities, and the Great Barrier Reef.",
+      "details": {
+        "capital": "Canberra",
+        "currency": "Australian Dollar (AUD)",
+        "keyDestinations": [
+          "Sydney - Opera House & Harbour Bridge",
+          "Melbourne - Cultural Capital",
+          "Great Barrier Reef - Marine Wonder",
+          "Uluru - Sacred Rock",
+          "Perth - Western Gateway"
+        ],
+        "popularMovies": [
+          "Crocodile Dundee (1986)",
+          "Mad Max: Fury Road (2015)",
+          "Australia (2008)",
+          "The Adventures of Priscilla (1994)",
+          "Wolf Creek (2005)"
+        ],
+        "famousPersons": [
+          "Hugh Jackman - Actor",
+          "Nicole Kidman - Actress",
+          "Steve Irwin - Wildlife Expert",
+          "Kylie Minogue - Singer",
+          "Russell Crowe - Actor"
+        ]
+      }
+    },
+    {
+      "id": "canada",
+      "name": "Canada",
+      "continent": "North America",
+      "flagUrl": "https://images.unsplash.com/photo-1517935706615-2717063c2225?w=400",
+      "monumentImage": "https://images.unsplash.com/photo-1517935706615-2717063c2225?w=800",
+      "shortDescription": "Vast wilderness, friendly people, multicultural cities, and stunning natural wonders.",
+      "details": {
+        "capital": "Ottawa",
+        "currency": "Canadian Dollar (CAD)",
+        "keyDestinations": [
+          "Toronto - CN Tower & Multicultural Hub",
+          "Vancouver - Mountain & Ocean Views",
+          "Montreal - French Culture",
+          "Niagara Falls - Natural Wonder",
+          "Banff - Rocky Mountain Paradise"
+        ],
+        "popularMovies": [
+          "The Revenant (2015)",
+          "Scott Pilgrim vs. The World (2010)",
+          "Bon Cop, Bad Cop (2006)",
+          "Strange Brew (1983)",
+          "My Big Fat Greek Wedding (2002)"
+        ],
+        "famousPersons": [
+          "Ryan Reynolds - Actor",
+          "Celine Dion - Singer",
+          "Jim Carrey - Comedian",
+          "Drake - Rapper",
+          "Wayne Gretzky - Hockey Legend"
+        ]
+      }
+    },
+    {
+      "id": "mexico",
+      "name": "Mexico",
+      "continent": "North America",
+      "flagUrl": "https://images.unsplash.com/photo-1512813195386-6cf811ad3542?w=400",
+      "monumentImage": "https://images.unsplash.com/photo-1512813195386-6cf811ad3542?w=800",
+      "shortDescription": "Rich history, vibrant culture, delicious cuisine, and ancient Mayan ruins.",
+      "details": {
+        "capital": "Mexico City",
+        "currency": "Mexican Peso (MXN)",
+        "keyDestinations": [
+          "Mexico City - Historic Capital",
+          "Cancun - Caribbean Paradise",
+          "Chichen Itza - Mayan Wonder",
+          "Guadalajara - Cultural Heart",
+          "Tulum - Coastal Ruins"
+        ],
+        "popularMovies": [
+          "Coco (2017)",
+          "Y Tu Mamá También (2001)",
+          "Roma (2018)",
+          "The Book of Life (2014)",
+          "Frida (2002)"
+        ],
+        "famousPersons": [
+          "Frida Kahlo - Artist",
+          "Diego Rivera - Muralist",
+          "Salma Hayek - Actress",
+          "Gael García Bernal - Actor",
+          "Octavio Paz - Nobel Laureate"
+        ]
+      }
+    },
+    {
+      "id": "argentina",
+      "name": "Argentina",
+      "continent": "South America",
+      "flagUrl": "https://images.unsplash.com/photo-1589909202802-8f4aadce1849?w=400",
+      "monumentImage": "https://images.unsplash.com/photo-1589909202802-8f4aadce1849?w=800",
+      "shortDescription": "Tango, wine, steaks, and diverse landscapes from Patagonia to the Andes.",
+      "details": {
+        "capital": "Buenos Aires",
+        "currency": "Argentine Peso (ARS)",
+        "keyDestinations": [
+          "Buenos Aires - Tango Capital",
+          "Mendoza - Wine Country",
+          "Patagonia - Wilderness Adventure",
+          "Iguazu Falls - Natural Wonder",
+          "Bariloche - Lake District"
+        ],
+        "popularMovies": [
+          "Evita (1996)",
+          "The Secret in Their Eyes (2009)",
+          "Wild Tales (2014)",
+          "Nine Queens (2000)",
+          "The Motorcycle Diaries (2004)"
+        ],
+        "famousPersons": [
+          "Diego Maradona - Football Legend",
+          "Lionel Messi - Football Star",
+          "Eva Perón - First Lady",
+          "Jorge Luis Borges - Writer",
+          "Carlos Gardel - Tango Singer"
+        ]
+      }
+    },
+    {
+      "id": "south-africa",
+      "name": "South Africa",
+      "continent": "Africa",
+      "flagUrl": "https://images.unsplash.com/photo-1484318571209-661cf29a69ea?w=400",
+      "monumentImage": "https://images.unsplash.com/photo-1484318571209-661cf29a69ea?w=800",
+      "shortDescription": "Rainbow nation with diverse cultures, wildlife safaris, and stunning coastlines.",
+      "details": {
+        "capital": "Cape Town",
+        "currency": "South African Rand (ZAR)",
+        "keyDestinations": [
+          "Cape Town - Table Mountain",
+          "Johannesburg - Gold Rush City",
+          "Kruger National Park - Safari",
+          "Durban - Golden Beaches",
+          "Garden Route - Scenic Drive"
+        ],
+        "popularMovies": [
+          "District 9 (2009)",
+          "Invictus (2009)",
+          "Tsotsi (2005)",
+          "The Gods Must Be Crazy (1980)",
+          "Chappie (2015)"
+        ],
+        "famousPersons": [
+          "Nelson Mandela - Freedom Fighter",
+          "Desmond Tutu - Archbishop",
+          "Charlize Theron - Actress",
+          "Trevor Noah - Comedian",
+          "Elon Musk - Entrepreneur"
+        ]
+      }
+    },
+    {
+      "id": "egypt",
+      "name": "Egypt",
+      "continent": "Africa",
+      "flagUrl": "https://images.unsplash.com/photo-1539650116574-75c0c6d0e9c3?w=400",
+      "monumentImage": "https://images.unsplash.com/photo-1539650116574-75c0c6d0e9c3?w=800",
+      "shortDescription": "Ancient pyramids, pharaohs, the Nile River, and timeless archaeological wonders.",
+      "details": {
+        "capital": "Cairo",
+        "currency": "Egyptian Pound (EGP)",
+        "keyDestinations": [
+          "Giza Pyramids - Ancient Wonder",
+          "Cairo - City of a Thousand Minarets",
+          "Luxor - Valley of the Kings",
+          "Aswan - Nubian Culture",
+          "Alexandria - Mediterranean Pearl"
+        ],
+        "popularMovies": [
+          "The Mummy (1999)",
+          "Raiders of the Lost Ark (1981)",
+          "Cleopatra (1963)",
+          "Death on the Nile (1978)",
+          "The Prince of Egypt (1998)"
+        ],
+        "famousPersons": [
+          "Cleopatra - Last Pharaoh",
+          "Omar Sharif - Actor",
+          "Naguib Mahfouz - Nobel Laureate",
+          "Anwar Sadat - President",
+          "Mohamed Salah - Football Star"
+        ]
+      }
+    },
+    {
+      "id": "thailand",
+      "name": "Thailand",
+      "continent": "Asia",
+      "flagUrl": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=400",
+      "monumentImage": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=800",
+      "shortDescription": "Tropical paradise, golden temples, street food, and warm hospitality.",
+      "details": {
+        "capital": "Bangkok",
+        "currency": "Thai Baht (THB)",
+        "keyDestinations": [
+          "Bangkok - Temple City",
+          "Phuket - Beach Paradise",
+          "Chiang Mai - Cultural North",
+          "Koh Phi Phi - Island Beauty",
+          "Ayutthaya - Ancient Capital"
+        ],
+        "popularMovies": [
+          "The Beach (2000)",
+          "The Hangover Part II (2011)",
+          "Only God Forgives (2013)",
+          "Bridget Jones: The Edge of Reason (2004)",
+          "Good Morning, Vietnam (1987)"
+        ],
+        "famousPersons": [
+          "Tony Jaa - Martial Artist",
+          "King Bhumibol - Beloved Monarch",
+          "Apichatpong Weerasethakul - Director",
+          "Buakaw Banchamek - Muay Thai Fighter",
+          "Tata Young - Pop Star"
+        ]
+      }
+    },
+    {
+      "id": "turkey",
+      "name": "Turkey",
+      "continent": "Europe/Asia",
+      "flagUrl": "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?w=400",
+      "monumentImage": "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?w=800",
+      "shortDescription": "Bridge between Europe and Asia, rich history, and stunning architecture.",
+      "details": {
+        "capital": "Ankara",
+        "currency": "Turkish Lira (TRY)",
+        "keyDestinations": [
+          "Istanbul - Historic Crossroads",
+          "Cappadocia - Fairy Chimneys",
+          "Pamukkale - Cotton Castle",
+          "Ephesus - Ancient Ruins",
+          "Antalya - Turkish Riviera"
+        ],
+        "popularMovies": [
+          "Midnight Express (1978)",
+          "From Russia with Love (1963)",
+          "Taken 2 (2012)",
+          "The Water Diviner (2014)",
+          "Winter Sleep (2014)"
+        ],
+        "famousPersons": [
+          "Mustafa Kemal Atatürk - Founder",
+          "Orhan Pamuk - Nobel Laureate",
+          "Nuri Bilge Ceylan - Director",
+          "Tarkan - Pop Star",
+          "Hakan Şükür - Football Legend"
+        ]
+      }
+    },
+    {
+      "id": "norway",
+      "name": "Norway",
+      "continent": "Europe",
+      "flagUrl": "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=400",
+      "monumentImage": "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=800",
+      "shortDescription": "Fjords, northern lights, midnight sun, and Viking heritage.",
+      "details": {
+        "capital": "Oslo",
+        "currency": "Norwegian Krone (NOK)",
+        "keyDestinations": [
+          "Oslo - Modern Capital",
+          "Bergen - Gateway to Fjords",
+          "Geiranger - UNESCO Fjord",
+          "Tromsø - Northern Lights",
+          "Lofoten Islands - Arctic Beauty"
+        ],
+        "popularMovies": [
+          "Frozen (2013)",
+          "The Thing (1982)",
+          "Kon-Tiki (2012)",
+          "Headhunters (2011)",
+          "The Snowman (2017)"
+        ],
+        "famousPersons": [
+          "Edvard Munch - Artist",
+          "Henrik Ibsen - Playwright",
+          "Roald Amundsen - Explorer",
+          "Magnus Carlsen - Chess Champion",
+          "A-ha - Music Band"
+        ]
+      }
+    },
+    {
+      "id": "sweden",
+      "name": "Sweden",
+      "continent": "Europe",
+      "flagUrl": "https://images.unsplash.com/photo-1509356843151-3e7d96241e11?w=400",
+      "monumentImage": "https://images.unsplash.com/photo-1509356843151-3e7d96241e11?w=800",
+      "shortDescription": "Modern design, pristine nature, ABBA, and progressive society.",
+      "details": {
+        "capital": "Stockholm",
+        "currency": "Swedish Krona (SEK)",
+        "keyDestinations": [
+          "Stockholm - Venice of the North",
+          "Gothenburg - West Coast Charm",
+          "Malmö - Modern Architecture",
+          "Kiruna - Arctic Experience",
+          "Visby - Medieval Town"
+        ],
+        "popularMovies": [
+          "The Girl with the Dragon Tattoo (2009)",
+          "Let the Right One In (2008)",
+          "A Man Called Ove (2015)",
+          "Mamma Mia! (2008)",
+          "The Hundred-Year-Old Man (2013)"
+        ],
+        "famousPersons": [
+          "ABBA - Music Group",
+          "Ingmar Bergman - Director",
+          "Astrid Lindgren - Author",
+          "Zlatan Ibrahimović - Football Star",
+          "Greta Thunberg - Activist"
+        ]
+      }
+    },
+    {
+      "id": "netherlands",
+      "name": "Netherlands",
+      "continent": "Europe",
+      "flagUrl": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=400",
+      "monumentImage": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=800",
+      "shortDescription": "Tulips, windmills, canals, and cycling culture in a flat, colorful country.",
+      "details": {
+        "capital": "Amsterdam",
+        "currency": "Euro (EUR)",
+        "keyDestinations": [
+          "Amsterdam - Canal Ring",
+          "Keukenhof - Tulip Gardens",
+          "Kinderdijk - Historic Windmills",
+          "The Hague - Royal Seat",
+          "Rotterdam - Modern Architecture"
+        ],
+        "popularMovies": [
+          "The Fault in Our Stars (2014)",
+          "Ocean's Twelve (2004)",
+          "Black Book (2006)",
+          "The Diary of Anne Frank (1959)",
+          "Soldaat van Oranje (1977)"
+        ],
+        "famousPersons": [
+          "Vincent van Gogh - Artist",
+          "Rembrandt - Master Painter",
+          "Anne Frank - Diarist",
+          "Johan Cruyff - Football Legend",
+          "Armin van Buuren - DJ"
+        ]
+      }
+    },
+    {
+      "id": "switzerland",
+      "name": "Switzerland",
+      "continent": "Europe",
+      "flagUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400",
+      "monumentImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800",
+      "shortDescription": "Alpine peaks, precision watches, chocolate, and pristine lakes.",
+      "details": {
+        "capital": "Bern",
+        "currency": "Swiss Franc (CHF)",
+        "keyDestinations": [
+          "Zurich - Financial Hub",
+          "Geneva - International City",
+          "Matterhorn - Iconic Peak",
+          "Jungfraujoch - Top of Europe",
+          "Lake Geneva - Alpine Beauty"
+        ],
+        "popularMovies": [
+          "The Sound of Music (1965)",
+          "On Her Majesty's Secret Service (1969)",
+          "The Magic Mountain (1982)",
+          "Heidi (2015)",
+          "Cargo (2017)"
+        ],
+        "famousPersons": [
+          "Albert Einstein - Physicist",
+          "Roger Federer - Tennis Legend",
+          "Jean-Luc Godard - Director",
+          "Carl Jung - Psychologist",
+          "Ursula Andress - Actress"
+        ]
+      }
+    },
+    {
+      "id": "austria",
+      "name": "Austria",
+      "continent": "Europe",
+      "flagUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400",
+      "monumentImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800",
+      "shortDescription": "Classical music, imperial palaces, Alpine scenery, and Mozart's birthplace.",
+      "details": {
+        "capital": "Vienna",
+        "currency": "Euro (EUR)",
+        "keyDestinations": [
+          "Vienna - Imperial Capital",
+          "Salzburg - Mozart's Birthplace",
+          "Hallstatt - Lakeside Village",
+          "Innsbruck - Alpine City",
+          "Melk Abbey - Baroque Monastery"
+        ],
+        "popularMovies": [
+          "The Sound of Music (1965)",
+          "Before Sunrise (1995)",
+          "Amadeus (1984)",
+          "The Third Man (1949)",
+          "Sissi (1955)"
+        ],
+        "famousPersons": [
+          "Wolfgang Amadeus Mozart - Composer",
+          "Sigmund Freud - Psychoanalyst",
+          "Arnold Schwarzenegger - Actor",
+          "Gustav Klimt - Artist",
+          "Franz Schubert - Composer"
+        ]
+      }
+    },
+    {
+      "id": "portugal",
+      "name": "Portugal",
+      "continent": "Europe",
+      "flagUrl": "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?w=400",
+      "monumentImage": "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?w=800",
+      "shortDescription": "Historic cities, beautiful coastline, port wine, and maritime heritage.",
+      "details": {
+        "capital": "Lisbon",
+        "currency": "Euro (EUR)",
+        "keyDestinations": [
+          "Lisbon - Hilly Capital",
+          "Porto - Port Wine City",
+          "Sintra - Fairy Tale Palaces",
+          "Algarve - Golden Coast",
+          "Óbidos - Medieval Town"
+        ],
+        "popularMovies": [
+          "Lisbon Story (1994)",
+          "The Portuguese Nun (2009)",
+          "Tabu (2012)",
+          "Arabian Nights (2015)",
+          "Mysteries of Lisbon (2010)"
+        ],
+        "famousPersons": [
+          "Cristiano Ronaldo - Football Star",
+          "José Mourinho - Football Manager",
+          "Amália Rodrigues - Fado Singer",
+          "Fernando Pessoa - Poet",
+          "Vasco da Gama - Explorer"
+        ]
+      }
+    },
+    {
+      "id": "ireland",
+      "name": "Ireland",
+      "continent": "Europe",
+      "flagUrl": "https://images.unsplash.com/photo-1590736969955-71cc94901144?w=400",
+      "monumentImage": "https://images.unsplash.com/photo-1590736969955-71cc94901144?w=800",
+      "shortDescription": "Emerald Isle with rolling green hills, Celtic culture, and warm hospitality.",
+      "details": {
+        "capital": "Dublin",
+        "currency": "Euro (EUR)",
+        "keyDestinations": [
+          "Dublin - Literary Capital",
+          "Ring of Kerry - Scenic Drive",
+          "Cliffs of Moher - Dramatic Coast",
+          "Galway - Cultural Hub",
+          "Giant's Causeway - Natural Wonder"
+        ],
+        "popularMovies": [
+          "The Quiet Man (1952)",
+          "My Left Foot (1989)",
+          "In Bruges (2008)",
+          "P.S. I Love You (2007)",
+          "Brooklyn (2015)"
+        ],
+        "famousPersons": [
+          "Bono - U2 Lead Singer",
+          "Oscar Wilde - Writer",
+          "James Joyce - Author",
+          "Colin Farrell - Actor",
+          "Sinéad O'Connor - Singer"
+        ]
+      }
+    },
+    {
+      "id": "south-korea",
+      "name": "South Korea",
+      "continent": "Asia",
+      "flagUrl": "https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=400",
+      "monumentImage": "https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=800",
+      "shortDescription": "K-pop, technology, traditional temples, and dynamic modern cities.",
+      "details": {
+        "capital": "Seoul",
+        "currency": "South Korean Won (KRW)",
+        "keyDestinations": [
+          "Seoul - Dynamic Capital",
+          "Busan - Coastal Metropolis",
+          "Jeju Island - Natural Paradise",
+          "Gyeongju - Ancient Capital",
+          "DMZ - Historic Border"
+        ],
+        "popularMovies": [
+          "Parasite (2019)",
+          "Oldboy (2003)",
+          "Train to Busan (2016)",
+          "Burning (2018)",
+          "The Handmaiden (2016)"
+        ],
+        "famousPersons": [
+          "BTS - K-pop Group",
+          "Psy - Gangnam Style",
+          "Bong Joon-ho - Director",
+          "Son Heung-min - Football Star",
+          "IU - K-pop Star"
+        ]
+      }
+    },
+    {
+      "id": "singapore",
+      "name": "Singapore",
+      "continent": "Asia",
+      "flagUrl": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?w=400",
+      "monumentImage": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?w=800",
+      "shortDescription": "Garden city, multicultural food scene, and modern urban planning.",
+      "details": {
+        "capital": "Singapore",
+        "currency": "Singapore Dollar (SGD)",
+        "keyDestinations": [
+          "Singapore - Capital City",
+          "Historic Sites - Cultural Heritage",
+          "Natural Wonders - Scenic Beauty",
+          "Local Markets - Traditional Culture",
+          "Museums - Art and History"
+        ],
+        "popularMovies": [
+          "Local Cinema - Cultural Stories",
+          "International Films - Global Recognition",
+          "Documentaries - Natural Beauty",
+          "Travel Shows - Destination Features",
+          "Cultural Programs - Traditional Arts"
+        ],
+        "famousPersons": [
+          "Historical Leaders - National Heroes",
+          "Artists - Cultural Icons",
+          "Writers - Literary Figures",
+          "Athletes - Sports Champions",
+          "Scientists - Innovation Leaders"
+        ]
+      }
+    },
+    {
+      "id": "new-zealand",
+      "name": "New Zealand",
+      "continent": "Oceania",
+      "flagUrl": "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=400",
+      "monumentImage": "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=800",
+      "shortDescription": "Adventure sports, stunning landscapes, Maori culture, and Lord of the Rings filming locations.",
+      "details": {
+        "capital": "Wellington",
+        "currency": "New Zealand Dollar (NZD)",
+        "keyDestinations": [
+          "Auckland - City of Sails",
+          "Wellington - Cultural Capital",
+          "Queenstown - Adventure Hub",
+          "Milford Sound - Fiordland",
+          "Rotorua - Geothermal Wonders"
+        ],
+        "popularMovies": [
+          "The Lord of the Rings Trilogy (2001-2003)",
+          "The Hobbit Trilogy (2012-2014)",
+          "Whale Rider (2002)",
+          "Hunt for the Wilderpeople (2016)",
+          "What We Do in the Shadows (2014)"
+        ],
+        "famousPersons": [
+          "Peter Jackson - Director",
+          "Russell Crowe - Actor",
+          "Lorde - Singer",
+          "Edmund Hillary - Mountaineer",
+          "Taika Waititi - Director"
+        ]
+      }
+    },
+    {
+      "id": "chile",
+      "name": "Chile",
+      "continent": "South America",
+      "flagUrl": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=400",
+      "monumentImage": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=800",
+      "shortDescription": "Long narrow country with diverse geography from Atacama Desert to Patagonia.",
+      "details": {
+        "capital": "Santiago",
+        "currency": "Chilean Peso (CLP)",
+        "keyDestinations": [
+          "Santiago - Capital City",
+          "Historic Sites - Cultural Heritage",
+          "Natural Wonders - Scenic Beauty",
+          "Local Markets - Traditional Culture",
+          "Museums - Art and History"
+        ],
+        "popularMovies": [
+          "Local Cinema - Cultural Stories",
+          "International Films - Global Recognition",
+          "Documentaries - Natural Beauty",
+          "Travel Shows - Destination Features",
+          "Cultural Programs - Traditional Arts"
+        ],
+        "famousPersons": [
+          "Historical Leaders - National Heroes",
+          "Artists - Cultural Icons",
+          "Writers - Literary Figures",
+          "Athletes - Sports Champions",
+          "Scientists - Innovation Leaders"
+        ]
+      }
+    },
+    {
+      "id": "peru",
+      "name": "Peru",
+      "continent": "South America",
+      "flagUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?w=400",
+      "monumentImage": "https://images.unsplash.com/photo-1526392060635-9d6019884377?w=800",
+      "shortDescription": "Machu Picchu, Inca heritage, Amazon rainforest, and diverse cuisine.",
+      "details": {
+        "capital": "Lima",
+        "currency": "Peruvian Sol (PEN)",
+        "keyDestinations": [
+          "Lima - Capital City",
+          "Historic Sites - Cultural Heritage",
+          "Natural Wonders - Scenic Beauty",
+          "Local Markets - Traditional Culture",
+          "Museums - Art and History"
+        ],
+        "popularMovies": [
+          "Local Cinema - Cultural Stories",
+          "International Films - Global Recognition",
+          "Documentaries - Natural Beauty",
+          "Travel Shows - Destination Features",
+          "Cultural Programs - Traditional Arts"
+        ],
+        "famousPersons": [
+          "Historical Leaders - National Heroes",
+          "Artists - Cultural Icons",
+          "Writers - Literary Figures",
+          "Athletes - Sports Champions",
+          "Scientists - Innovation Leaders"
+        ]
+      }
+    },
+    {
+      "id": "colombia",
+      "name": "Colombia",
+      "continent": "South America",
+      "flagUrl": "https://images.unsplash.com/photo-1558005530-a7958896ec60?w=400",
+      "monumentImage": "https://images.unsplash.com/photo-1558005530-a7958896ec60?w=800",
+      "shortDescription": "Coffee culture, colorful cities, Caribbean coast, and emerald mines.",
+      "details": {
+        "capital": "Bogotá",
+        "currency": "Colombian Peso (COP)",
+        "keyDestinations": [
+          "Bogotá - Capital City",
+          "Historic Sites - Cultural Heritage",
+          "Natural Wonders - Scenic Beauty",
+          "Local Markets - Traditional Culture",
+          "Museums - Art and History"
+        ],
+        "popularMovies": [
+          "Local Cinema - Cultural Stories",
+          "International Films - Global Recognition",
+          "Documentaries - Natural Beauty",
+          "Travel Shows - Destination Features",
+          "Cultural Programs - Traditional Arts"
+        ],
+        "famousPersons": [
+          "Historical Leaders - National Heroes",
+          "Artists - Cultural Icons",
+          "Writers - Literary Figures",
+          "Athletes - Sports Champions",
+          "Scientists - Innovation Leaders"
+        ]
+      }
+    },
+    {
+      "id": "morocco",
+      "name": "Morocco",
+      "continent": "Africa",
+      "flagUrl": "https://images.unsplash.com/photo-1539650116574-75c0c6d0e9c3?w=400",
+      "monumentImage": "https://images.unsplash.com/photo-1539650116574-75c0c6d0e9c3?w=800",
+      "shortDescription": "Imperial cities, Sahara Desert, Atlas Mountains, and vibrant souks.",
+      "details": {
+        "capital": "Rabat",
+        "currency": "Moroccan Dirham (MAD)",
+        "keyDestinations": [
+          "Rabat - Capital City",
+          "Historic Sites - Cultural Heritage",
+          "Natural Wonders - Scenic Beauty",
+          "Local Markets - Traditional Culture",
+          "Museums - Art and History"
+        ],
+        "popularMovies": [
+          "Local Cinema - Cultural Stories",
+          "International Films - Global Recognition",
+          "Documentaries - Natural Beauty",
+          "Travel Shows - Destination Features",
+          "Cultural Programs - Traditional Arts"
+        ],
+        "famousPersons": [
+          "Historical Leaders - National Heroes",
+          "Artists - Cultural Icons",
+          "Writers - Literary Figures",
+          "Athletes - Sports Champions",
+          "Scientists - Innovation Leaders"
+        ]
+      }
+    },
+    {
+      "id": "kenya",
+      "name": "Kenya",
+      "continent": "Africa",
+      "flagUrl": "https://images.unsplash.com/photo-1489392191049-fc10c97e64b6?w=400",
+      "monumentImage": "https://images.unsplash.com/photo-1489392191049-fc10c97e64b6?w=800",
+      "shortDescription": "Safari adventures, Maasai culture, Mount Kenya, and the Great Migration.",
+      "details": {
+        "capital": "Nairobi",
+        "currency": "Kenyan Shilling (KES)",
+        "keyDestinations": [
+          "Nairobi - Capital City",
+          "Historic Sites - Cultural Heritage",
+          "Natural Wonders - Scenic Beauty",
+          "Local Markets - Traditional Culture",
+          "Museums - Art and History"
+        ],
+        "popularMovies": [
+          "Local Cinema - Cultural Stories",
+          "International Films - Global Recognition",
+          "Documentaries - Natural Beauty",
+          "Travel Shows - Destination Features",
+          "Cultural Programs - Traditional Arts"
+        ],
+        "famousPersons": [
+          "Historical Leaders - National Heroes",
+          "Artists - Cultural Icons",
+          "Writers - Literary Figures",
+          "Athletes - Sports Champions",
+          "Scientists - Innovation Leaders"
+        ]
+      }
+    },
+    {
+      "id": "vietnam",
+      "name": "Vietnam",
+      "continent": "Asia",
+      "flagUrl": "https://images.unsplash.com/photo-1528127269322-539801943592?w=400",
+      "monumentImage": "https://images.unsplash.com/photo-1528127269322-539801943592?w=800",
+      "shortDescription": "Pho cuisine, Ha Long Bay, bustling cities, and rich war history.",
+      "details": {
+        "capital": "Hanoi",
+        "currency": "Vietnamese Dong (VND)",
+        "keyDestinations": [
+          "Hanoi - Capital City",
+          "Historic Sites - Cultural Heritage",
+          "Natural Wonders - Scenic Beauty",
+          "Local Markets - Traditional Culture",
+          "Museums - Art and History"
+        ],
+        "popularMovies": [
+          "Local Cinema - Cultural Stories",
+          "International Films - Global Recognition",
+          "Documentaries - Natural Beauty",
+          "Travel Shows - Destination Features",
+          "Cultural Programs - Traditional Arts"
+        ],
+        "famousPersons": [
+          "Historical Leaders - National Heroes",
+          "Artists - Cultural Icons",
+          "Writers - Literary Figures",
+          "Athletes - Sports Champions",
+          "Scientists - Innovation Leaders"
+        ]
+      }
+    },
+    {
+      "id": "indonesia",
+      "name": "Indonesia",
+      "continent": "Asia",
+      "flagUrl": "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?w=400",
+      "monumentImage": "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?w=800",
+      "shortDescription": "Thousands of islands, diverse cultures, Bali beaches, and ancient temples.",
+      "details": {
+        "capital": "Jakarta",
+        "currency": "Indonesian Rupiah (IDR)",
+        "keyDestinations": [
+          "Jakarta - Capital City",
+          "Historic Sites - Cultural Heritage",
+          "Natural Wonders - Scenic Beauty",
+          "Local Markets - Traditional Culture",
+          "Museums - Art and History"
+        ],
+        "popularMovies": [
+          "Local Cinema - Cultural Stories",
+          "International Films - Global Recognition",
+          "Documentaries - Natural Beauty",
+          "Travel Shows - Destination Features",
+          "Cultural Programs - Traditional Arts"
+        ],
+        "famousPersons": [
+          "Historical Leaders - National Heroes",
+          "Artists - Cultural Icons",
+          "Writers - Literary Figures",
+          "Athletes - Sports Champions",
+          "Scientists - Innovation Leaders"
+        ]
+      }
+    },
+    {
+      "id": "philippines",
+      "name": "Philippines",
+      "continent": "Asia",
+      "flagUrl": "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?w=400",
+      "monumentImage": "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?w=800",
+      "shortDescription": "Tropical archipelago, pristine beaches, friendly people, and Spanish colonial heritage.",
+      "details": {
+        "capital": "Manila",
+        "currency": "Philippine Peso (PHP)",
+        "keyDestinations": [
+          "Manila - Capital City",
+          "Historic Sites - Cultural Heritage",
+          "Natural Wonders - Scenic Beauty",
+          "Local Markets - Traditional Culture",
+          "Museums - Art and History"
+        ],
+        "popularMovies": [
+          "Local Cinema - Cultural Stories",
+          "International Films - Global Recognition",
+          "Documentaries - Natural Beauty",
+          "Travel Shows - Destination Features",
+          "Cultural Programs - Traditional Arts"
+        ],
+        "famousPersons": [
+          "Historical Leaders - National Heroes",
+          "Artists - Cultural Icons",
+          "Writers - Literary Figures",
+          "Athletes - Sports Champions",
+          "Scientists - Innovation Leaders"
+        ]
+      }
+    },
+    {
+      "id": "malaysia",
+      "name": "Malaysia",
+      "continent": "Asia",
+      "flagUrl": "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=400",
+      "monumentImage": "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=800",
+      "shortDescription": "Multicultural society, Petronas Towers, rainforests, and street food paradise.",
+      "details": {
+        "capital": "Kuala Lumpur",
+        "currency": "Malaysian Ringgit (MYR)",
+        "keyDestinations": [
+          "Kuala Lumpur - Capital City",
+          "Historic Sites - Cultural Heritage",
+          "Natural Wonders - Scenic Beauty",
+          "Local Markets - Traditional Culture",
+          "Museums - Art and History"
+        ],
+        "popularMovies": [
+          "Local Cinema - Cultural Stories",
+          "International Films - Global Recognition",
+          "Documentaries - Natural Beauty",
+          "Travel Shows - Destination Features",
+          "Cultural Programs - Traditional Arts"
+        ],
+        "famousPersons": [
+          "Historical Leaders - National Heroes",
+          "Artists - Cultural Icons",
+          "Writers - Literary Figures",
+          "Athletes - Sports Champions",
+          "Scientists - Innovation Leaders"
+        ]
+      }
+    },
+    {
+      "id": "israel",
+      "name": "Israel",
+      "continent": "Asia",
+      "flagUrl": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=400",
+      "monumentImage": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=800",
+      "shortDescription": "Holy Land, ancient history, modern innovation, and diverse landscapes.",
+      "details": {
+        "capital": "Jerusalem",
+        "currency": "Israeli Shekel (ILS)",
+        "keyDestinations": [
+          "Jerusalem - Capital City",
+          "Historic Sites - Cultural Heritage",
+          "Natural Wonders - Scenic Beauty",
+          "Local Markets - Traditional Culture",
+          "Museums - Art and History"
+        ],
+        "popularMovies": [
+          "Local Cinema - Cultural Stories",
+          "International Films - Global Recognition",
+          "Documentaries - Natural Beauty",
+          "Travel Shows - Destination Features",
+          "Cultural Programs - Traditional Arts"
+        ],
+        "famousPersons": [
+          "Historical Leaders - National Heroes",
+          "Artists - Cultural Icons",
+          "Writers - Literary Figures",
+          "Athletes - Sports Champions",
+          "Scientists - Innovation Leaders"
+        ]
+      }
+    },
+    {
+      "id": "jordan",
+      "name": "Jordan",
+      "continent": "Asia",
+      "flagUrl": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=400",
+      "monumentImage": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=800",
+      "shortDescription": "Petra, Wadi Rum desert, Dead Sea, and ancient Nabataean civilization.",
+      "details": {
+        "capital": "Amman",
+        "currency": "Jordanian Dinar (JOD)",
+        "keyDestinations": [
+          "Amman - Capital City",
+          "Historic Sites - Cultural Heritage",
+          "Natural Wonders - Scenic Beauty",
+          "Local Markets - Traditional Culture",
+          "Museums - Art and History"
+        ],
+        "popularMovies": [
+          "Local Cinema - Cultural Stories",
+          "International Films - Global Recognition",
+          "Documentaries - Natural Beauty",
+          "Travel Shows - Destination Features",
+          "Cultural Programs - Traditional Arts"
+        ],
+        "famousPersons": [
+          "Historical Leaders - National Heroes",
+          "Artists - Cultural Icons",
+          "Writers - Literary Figures",
+          "Athletes - Sports Champions",
+          "Scientists - Innovation Leaders"
+        ]
+      }
+    }
+  ]
+}
