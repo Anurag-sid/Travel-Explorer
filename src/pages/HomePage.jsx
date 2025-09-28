@@ -168,22 +168,33 @@ const HomePage = () => {
   // Helper function to get country image
   const getCountryImage = (countryName) => {
     const imageMap = {
+      // European Countries
       "Iceland": "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=800&q=80",
+      "Ireland": "https://images.unsplash.com/photo-1590089415225-401ed6f9db8e?w=800&q=80",
       "Finland": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&q=80",
       "Denmark": "https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?w=800&q=80",
       "Belgium": "https://images.unsplash.com/photo-1559113202-c916b8e44373?w=800&q=80",
-      "Czech Republic": "https://images.unsplash.com/photo-1541849546-216549ae216d?w=800&q=80",
-      "Poland": "https://images.unsplash.com/photo-1544984243-ec57ea16fe25?w=800&q=80",
-      "Hungary": "https://images.unsplash.com/photo-1541849546-216549ae216d?w=800&q=80",
-      "Croatia": "https://images.unsplash.com/photo-1555993539-1732b0258235?w=800&q=80",
-      "Romania": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&q=80",
-      "Bulgaria": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&q=80",
-      "Ukraine": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&q=80",
-      "Lithuania": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&q=80",
-      "Latvia": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&q=80",
-      "Estonia": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&q=80"
+      "France": "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?w=800&q=80",
+      "Italy": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=800&q=80",
+      
+      // Asian Countries
+      "China": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=800&q=80",
+      "Japan": "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=800&q=80",
+      "India": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&q=80",
+      
+      // American Countries
+      "Chile": "https://images.unsplash.com/photo-1601224335112-e2fc528261ae?w=800&q=80",
+      "Brazil": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=800&q=80",
+      "United States": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800&q=80",
+      
+      // Additional Countries
+      "Australia": "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?w=800&q=80",
+      "Egypt": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?w=800&q=80",
+      "South Africa": "https://images.unsplash.com/photo-1484318571209-661cf29a69c3?w=800&q=80"
     };
-    return imageMap[countryName] || `https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80`;
+    
+    // If we don't have a specific image, generate a search query for landmarks
+    return imageMap[countryName] || `https://source.unsplash.com/800x600/?${encodeURIComponent(countryName + ' landmark')}`;
   };
 
   // Helper function to get country code for flags
@@ -477,12 +488,31 @@ const HomePage = () => {
               onClick={() => handleCountryClick(country.id)}
             >
               {/* Country Image */}
-              <div className="relative h-48 overflow-hidden">
+              <div className="relative h-48 overflow-hidden bg-gray-100 dark:bg-gray-800">
                 <img
-                  src={country.monumentImage || 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800'}
+                  loading="lazy"
+                  src={(country.id && {
+                    'chile': 'https://images.unsplash.com/photo-1516735746393-747c366c5e7c?w=800&q=80',
+                    'colombia': 'https://images.unsplash.com/photo-1519863654396-da816a8a5f68?w=800&q=80',
+                    'egypt': 'https://images.unsplash.com/photo-1539650116574-8efeb43e2750?w=800&q=80',
+                    'brazil': 'https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=800&q=80',
+                    'france': 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800&q=80',
+                    'italy': 'https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=800&q=80'
+                  }[country.id.toLowerCase()]) || country.monumentImage || `https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&q=80&auto=format&fit=crop`}
+                  onError={(e) => {
+                    e.target.onerror = null;
+                    const specificImages = {
+                      'chile': 'https://images.unsplash.com/photo-1601224335112-e2fc528261ae?w=800&q=80',
+                      'colombia': 'https://images.unsplash.com/photo-1562786198-a46c860077b2?w=800&q=80',
+                      'egypt': 'https://images.unsplash.com/photo-1572252009286-268acec5ca0a?w=800&q=80'
+                    };
+                    e.target.src = specificImages[country.id.toLowerCase()] || 
+                                 `https://source.unsplash.com/800x600/?${encodeURIComponent(country.name + ' landmark,famous')}`;
+                  }}
                   alt={`${country.name || 'Country'} landmark`}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
+                <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/30 group-hover:opacity-0 transition-opacity duration-300"></div>
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
                 <div className="absolute bottom-4 left-4 right-4">
                   <h3 className="text-xl font-bold text-white mb-1">{country.name}</h3>

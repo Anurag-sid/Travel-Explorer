@@ -1,0 +1,103 @@
+{
+  "countries": [
+    {
+      "id": "chile",
+      "name": "Chile",
+      "continent": "South America",
+      "flagUrl": "https://flagcdn.com/w320/cl.png",
+      "monumentImage": "https://images.unsplash.com/photo-1516735746393-747c366c5e7c?w=800&q=80",
+      "shortDescription": "Long narrow country with diverse geography from Atacama Desert to Patagonia.",
+      "details": {
+        "capital": "Santiago",
+        "currency": "Chilean Peso (CLP)",
+        "keyDestinations": [
+          "Torres del Paine - Stunning National Park",
+          "Easter Island - Ancient Moai Statues",
+          "Atacama Desert - World's Driest Desert",
+          "Santiago - Modern Capital City",
+          "Valparaíso - Colorful Coastal Town"
+        ],
+        "popularMovies": [
+          "A Fantastic Woman (2017)",
+          "No (2012)",
+          "Machuca (2004)",
+          "The Pearl Button (2015)",
+          "Nostalgia for the Light (2010)"
+        ],
+        "famousPersons": [
+          "Pablo Neruda - Nobel Prize Poet",
+          "Salvador Allende - Former President",
+          "Gabriela Mistral - Nobel Prize Poet",
+          "Isabel Allende - Acclaimed Author",
+          "Alexis Sánchez - Football Star"
+        ]
+      }
+    },
+    {
+      "id": "colombia",
+      "name": "Colombia",
+      "continent": "South America",
+      "flagUrl": "https://flagcdn.com/w320/co.png",
+      "monumentImage": "https://images.unsplash.com/photo-1519863654396-da816a8a5f68?w=800&q=80",
+      "shortDescription": "Coffee culture, colorful cities, Caribbean coast, and emerald mines.",
+      "details": {
+        "capital": "Bogotá",
+        "currency": "Colombian Peso (COP)",
+        "keyDestinations": [
+          "Cartagena - Historic Coastal City",
+          "Bogotá - Modern Capital",
+          "Medellín - City of Eternal Spring",
+          "Tayrona National Park - Caribbean Paradise",
+          "Coffee Triangle - World's Best Coffee"
+        ],
+        "popularMovies": [
+          "Maria Full of Grace (2004)",
+          "Embrace of the Serpent (2015)",
+          "Birds of Passage (2018)",
+          "The Rose Seller (1998)",
+          "Monos (2019)"
+        ],
+        "famousPersons": [
+          "Gabriel García Márquez - Nobel Prize Author",
+          "Shakira - Global Pop Star",
+          "Fernando Botero - Renowned Artist",
+          "James Rodríguez - Football Star",
+          "Sofia Vergara - Acclaimed Actress"
+        ]
+      }
+    },
+    {
+      "id": "egypt",
+      "name": "Egypt",
+      "continent": "Africa",
+      "flagUrl": "https://flagcdn.com/w320/eg.png",
+      "monumentImage": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?w=800&q=80",
+      "shortDescription": "Ancient pyramids, pharaohs, the Nile River, and timeless archaeological wonders.",
+      "details": {
+        "capital": "Cairo",
+        "currency": "Egyptian Pound (EGP)",
+        "keyDestinations": [
+          "Pyramids of Giza - Ancient Wonder",
+          "Luxor - Valley of the Kings",
+          "Abu Simbel - Massive Temples",
+          "Nile River - Historic Waterway",
+          "Red Sea - World-Class Diving"
+        ],
+        "popularMovies": [
+          "The Mummy (1999)",
+          "Cairo Station (1958)",
+          "The Yacoubian Building (2006)",
+          "Chaos (2007)",
+          "Alexandria... Why? (1979)"
+        ],
+        "famousPersons": [
+          "Tutankhamun - Ancient Pharaoh",
+          "Cleopatra - Last Active Pharaoh",
+          "Naguib Mahfouz - Nobel Prize Author",
+          "Omar Sharif - Hollywood Star",
+          "Mohamed Salah - Football Icon"
+        ]
+      }
+    }
+  ]
+}
